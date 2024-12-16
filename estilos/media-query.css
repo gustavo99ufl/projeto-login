@@ -1,0 +1,45 @@
+@media screen and (max-width: 768px) {
+    section#login {
+        width: 90vw;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    body {
+        background: linear-gradient(to top, var(--vermelho), var(--verde));
+    }
+
+    section#login {
+        display: flex;
+        width: 70vw;
+        height: 60vh;
+    }
+
+    #imagem {
+        width: 40%;
+    }
+
+    #formulario {
+        width: 60%;
+        padding: 30px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    section#login {
+        width: 50vw;
+        height: 70vh;
+        display: flex;
+    }
+
+    #imagem {
+        width: 50%;
+        height: 100%;
+    }
+
+    #formulario {
+        width: 50%;
+        padding: 40px;
+    }
+}
